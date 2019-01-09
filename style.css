@@ -2,6 +2,9 @@
     margin:0;
     padding:0;
 }
+body{
+    width: 100%;
+}
 header{
     width: 100%;
     height: 50px;
@@ -112,5 +115,29 @@ ul li a:hover{
     font-size: 20px;
 }
 #chk:checked ~.pEP{
+    display: none;
+}
+#ep2{
+    position:relative;
+    top: 32px;
+    left: 500px;
+}
+#chk:checked ~ #ep2 {
+    display: none;
+}
+#ep3 {
+    position: relative;
+    top: -107px;
+    left: 800px;
+}
+#chk:checked ~ #ep3 {
+    display: none;
+}
+#ep4 {
+    position: relative;
+    left: 200px;
+}
+
+#chk:checked ~ #ep4 {
     display: none;
 }
