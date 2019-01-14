@@ -3,9 +3,7 @@
     padding:0;
 }
 body{
-    max-width: 1280px;
-    width: 100%;
-    overflow-x:hidden;
+    width: 100%
 }
 header{
     width: 100%;
@@ -98,14 +96,14 @@ ul li a:hover{
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
 }
 #mini{
-    width: 200px;
-    height: 111px;
+    width: 300px;
+    height: 182px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
 }
 #ep1{
     position: relative;
-    top: 170px;
-    left: 200px;
+    top: 100px;
+    left: 15%;
 }
 #chk:checked ~#ep1{
     display: none;
@@ -121,16 +119,16 @@ ul li a:hover{
 }
 #ep2{
     position:relative;
-    top: 32px;
-    left: 500px;
+    top: -100px;
+    left: 45%;
 }
 #chk:checked ~ #ep2 {
     display: none;
 }
 #ep3 {
     position: relative;
-    top: -107px;
-    left: 800px;
+    top: -106px;
+    left: 80%;
 }
 #chk:checked ~ #ep3 {
     display: none;
@@ -149,7 +147,6 @@ ul li a:hover{
 }
 #chk:checked ~ #ep5 {
     display: none;
-
 }
 #ep6 {
     position: relative;
