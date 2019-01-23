@@ -12,6 +12,7 @@ header{
     left:0;
     background-color: #4e494a;
     position: fixed;
+    z-index: 1;
 }
 .menu-icon{
     position: fixed;
@@ -19,7 +20,7 @@ header{
     font-weight: bold;
     padding: 5px;
     width: 40px;
-    height: 40px;
+    height: 50px;
     text-align: center;
     background-color: #4e494a;
     color: #fff;
@@ -27,9 +28,10 @@ header{
     transition: all.4s;
     left:300px;
     top:0;
+    z-index: 1;
 }
 .menu-icon:hover{
-    background-color: #fff;
+    background-color: #808080;
 }
 #chk{
     display: none;
@@ -41,6 +43,7 @@ header{
     top:0;
     overflow: hidden;
     transition: all .2s;
+    z-index: 2;
 }
 #principal{
     width: 300px;
@@ -100,5 +103,5 @@ ul li a:hover{
     top: 150px;
 }
 #chk:checked ~.container{
-    display: block;
+    display: none;
 }
