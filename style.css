@@ -95,81 +95,10 @@ ul li a:hover{
     transform: translateX(250px);
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
 }
-#mini{
-    width: 275px;
-    height: 154px;
-    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
-}
-#ep1{
+.container{
     position: relative;
-    top: 100px;
-    left: 10%;
+    top: 150px;
 }
-#chk:checked ~#ep1{
-    display: none;
-}
-.pEP{
-    position: relative;
-    left:7%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-#chk:checked ~.pEP{
-    display: none;
-}
-#ep2{
-    position:relative;
-    top: -81px;
-    left: 40%;
-}
-#chk:checked ~ #ep2 {
-    display: none;
-}
-#ep3 {
-    position: relative;
-    top: -262px;
-    left: 70%;
-}
-#chk:checked ~ #ep3 {
-    display: none;
-}
-#ep4 {
-    position: relative;
-    top: -200px;
-    left: 10%;
-}
-#chk:checked ~ #ep4 {
-    display: none;
-}
-#ep5 {
-    position: relative;
-    top: -138px;
-    left: 40%;
-}
-#chk:checked ~ #ep5 {
-    display: none;
-}
-#ep6 {
-    position: relative;
-    top: -277px;
-    left: 800px;
-}
-#chk:checked ~ #ep6 {
-    display: none;
-}
-#ep7 {
-    position: relative;
-    top: -175px;
-    left: 200px;
-}
-#chk:checked ~ #ep7 {
-    display: none;
-}
-#ep8 {
-    position: relative;
-    top: -313px;
-    left: 500px;
-}
-#chk:checked ~ #ep8 {
-    display: none;
+#chk:checked ~.container{
+    display: block;
 }
