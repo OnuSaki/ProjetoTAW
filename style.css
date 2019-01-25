@@ -112,6 +112,7 @@ ul li a:hover{
     position: fixed;
     background-color: rgba(0, 0, 0, 6);
     display: none;
+    z-index: 2;
 }
 #chk:checked ~.bg{
     display: block;
@@ -197,12 +198,12 @@ a:-webkit-any-link{
     cursor: pointer;
 }
 #manga1{
-    position: fixed;
+    position: absolute;
     top: 15%;
     left: 10%;
 }
-#chk:checked ~ #imgmanga{
-    display: none;
+#chk:checked ~#manga1{
+    display: block;
 }
 #chk:checked ~.tabela{
     display: none;
