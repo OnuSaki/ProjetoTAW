@@ -21,9 +21,9 @@
             <li><a href="" class="voltar">Voltar</a></li>
             <li><a href="2.html">Página Inicial</a></li>
             <li><a href="#tokyo1">Tokyo Ghoul Anime <span>+</span></a></li>
-            <li><a href="manga1.html">Tokyo Ghoul Mangá</a></li>
+            <li><a href="manga1.html" onclick="alerta2()">Tokyo Ghoul Mangá</a></li>
             <li><a href="#tokyo2">Tokyo Ghoul:re Anime <span>+</span></a></li>
-            <li><a href="manga2.html">Tokyo Ghoul:re Mangá</a></li>
+            <li><a href="" onclick="naodisp()">Tokyo Ghoul:re Mangá</a></li>
         </ul>
     </nav>
 
@@ -46,6 +46,12 @@
     <script>
         function alerta(){
             alert("Isto é um protótipo, então apenas uma pequena amostra do primeiro episódio se encontra disponível");
+        }
+        function naodisp(){
+            alert("Pedimos desculpa, mas esta página ainda se encontra em desenvolvimento. Lamentamos");
+        }
+        function alerta2(){
+            alert("Mais volumes serão adicionados brevemente!");
         }
     </script>
 </body>
