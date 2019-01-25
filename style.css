@@ -126,7 +126,7 @@ ul li a:hover{
 }
 .container{
     position: relative;
-    top: 150px;
+    top: 100px;
 }
 #chk:checked ~.container{
     display: none;
@@ -135,4 +135,10 @@ ul li a:hover{
     width: 300px;
     height: 162px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
+}
+#chk:checked ~p{
+    display: none;
+}
+#chk:checked ~ #ep1{
+    display: none;
 }
