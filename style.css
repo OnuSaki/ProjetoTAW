@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 body{
     width: 100%
@@ -13,6 +14,31 @@ header{
     background-color: #4e494a;
     position: fixed;
     z-index: 1;
+}
+.row{
+    position: relative;
+    top:100px;
+}
+h1{
+    position: relative;
+    top:90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .menu-icon{
     position: fixed;
@@ -104,4 +130,9 @@ ul li a:hover{
 }
 #chk:checked ~.container{
     display: none;
+}
+.ep{
+    width: 300px;
+    height: 162px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
 }
